@@ -6,14 +6,14 @@ A simple ETL pipeline that extracts data from an sample data Excel file, transfo
 
 
 ## Explanation
-<br>-This script loads the excel file first.<br/>
-<br>-Start transforming by converting dates.<br/>
-<br>-Rows with important information (which cannot be null) are dropped. <br/>
-<br>-New total sales column creation by multiplying the Sales and Quantity columns.<br/>
-<br>-Convert NaNs into None for SQL compatibility.<br/>
-<br>-Establish connection with Microsoft SQL Server database. <br/>
-<br>-Create new database and insert new rows.<br/>
-<br>-Commit to changes.<br/>
+-This script loads the excel file first.<br/>
+-Start transforming by converting dates.<br/>
+-Rows with important information (which cannot be null) are dropped. <br/>
+-New total sales column creation by multiplying the Sales and Quantity columns.<br/>
+-Convert NaNs into None for SQL compatibility.<br/>
+-Establish connection with Microsoft SQL Server database. <br/>
+-Create new database and insert new rows.<br/>
+-Commit to changes.<br/>
 
 
 
