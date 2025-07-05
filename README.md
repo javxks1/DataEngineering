@@ -18,9 +18,9 @@ A simple ETL pipeline that extracts data from an sample data Excel file, transfo
 
 
 ## Tools
--Python (Visual Studio) <br/>
--Python extensions - _Pandas for data analysis & Pyodbc for databases connections._ <br/>
--Microsoft SQL Server Management Studio<br/>
+<br>-Python (Visual Studio) <br/>
+<br>-Python extensions - _Pandas for data analysis & Pyodbc for databases connections._ <br/>
+<br>-Microsoft SQL Server Management Studio<br/>
 
 ## Instructions
 1. Install Python 
