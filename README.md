@@ -2,7 +2,7 @@
 <br>
 ## Project Overview 
 A simple ETL pipeline that extracts data from an sample data Excel file, transforms it using pandas, and loads it into a SQL Server Management Studio database.
-<br>
+<br/>
 ## Explanation
 -This script loads the excel file first. 
 -Start transforming by converting dates. 
@@ -12,12 +12,12 @@ A simple ETL pipeline that extracts data from an sample data Excel file, transfo
 -Establish connection with Microsoft SQL Server database. 
 -Create new database and insert new rows.
 -Commit to changes. 
-<br>
+<br/>
 ## Tools
 -Python (Visual Studio)
 -Python extensions - _Pandas for data analysis & Pyodbc for databases connections._
 -Microsoft SQL Server Management Studio
-<br>
+<br/>
 ## Instructions
 1. Install Python 
 Make sure you install Python 3. x.
@@ -73,9 +73,9 @@ This script should allow you to create a new Sales1 database and a new Sales tab
 9. Run the ETL Script
 Open a terminal and run the following command:
 python etl_script.py
-<br>
+
 or use any python environment software and run this script.
 
-9. Verify the Data in SQL Server
+10. Verify the Data in SQL Server
 Open SSMS, connect to your server and check that the new database and table have been created. Run SELECT * FROM Sales; to view inserted data.
-
+<br/>
