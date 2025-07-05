@@ -1,8 +1,8 @@
 # Sample Sales Data ETL Pipeline
-
+<br>
 ## Project Overview 
 A simple ETL pipeline that extracts data from an sample data Excel file, transforms it using pandas, and loads it into a SQL Server Management Studio database.
-
+<br>
 ## Explanation
 -This script loads the excel file first. 
 -Start transforming by converting dates. 
@@ -12,12 +12,12 @@ A simple ETL pipeline that extracts data from an sample data Excel file, transfo
 -Establish connection with Microsoft SQL Server database. 
 -Create new database and insert new rows.
 -Commit to changes. 
-
+<br>
 ## Tools
 -Python (Visual Studio)
--Python extensions - Pandas for data analysis & Pyodbc for databases connections.
+-Python extensions - _Pandas for data analysis & Pyodbc for databases connections._
 -Microsoft SQL Server Management Studio
-
+<br>
 ## Instructions
 1. Install Python 
 Make sure you install Python 3. x.
@@ -38,13 +38,13 @@ a. pip install pandas
 b. pip install pyodbc 
 c. pip install openpyxl
 
-4. Set Up SQL Server
+5. Set Up SQL Server
 •	Open SQL Server Management Studio (SSMS).
 •	Create a SQL Server instance if not already running.
 •	Make sure TCP/IP is enabled for remote/local connections.
 •	Remember your server’s name (yourlocalhost\\SQLEXPRESS) and credentials.
 
-5. Update Connection String in Script
+6. Update Connection String in Script
 In etl_script.py, make sure to edit your connection string (conn_str) for a connection with your local database, example:
 When using Windows Authentication:
 conn_str = (
@@ -62,18 +62,18 @@ conn_str = (
     "PWD=your_password;"
 )
 
-6. Place Excel File in Data Folder
+7. Place Excel File in Data Folder
 Ensure the excel file is inside the correct folder and the file path is correctly set in the script:
 Example: ‘C:\Users\user\DataEngineering\Sales Data ETL Project\data\Sample-sales-data-excel.xlsx’
 
-7. Run the SQL Script
+8. Run the SQL Script
 Look for the sales.sql script file and open it on SSMS. Then run the script. 
 This script should allow you to create a new Sales1 database and a new Sales table where the ETL process. 
 
-8. Run the ETL Script
+9. Run the ETL Script
 Open a terminal and run the following command:
 python etl_script.py
-
+<br>
 or use any python environment software and run this script.
 
 9. Verify the Data in SQL Server
