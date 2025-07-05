@@ -47,13 +47,14 @@ c. pip install openpyxl<br/>
 •	Remember your server’s name (yourlocalhost\\SQLEXPRESS) and credentials.<br/>
 
 5. Update Connection String in Script
-In etl_script.py, make sure to edit your connection string (conn_str) for a connection with your local database, example:
-When using Windows Authentication:
-conn_str = (
-    "Driver={ODBC Driver 17 for SQL Server};"
-    "Server=localhost\\SQLEXPRESS;"
-    "Database=master;" 
-    "Trusted_Connection=yes;" 
+In etl_script.py, make sure to edit your connection string (conn_str) for a connection with your local database. 
+
+When using Windows Authentication: <br/>
+conn_str = ( <br/>
+    "Driver={ODBC Driver 17 for SQL Server};" <br/>
+    "Server=localhost\\SQLEXPRESS;" <br/>
+    "Database=master;" <br/>
+    "Trusted_Connection=yes;" <br/>
 )
 If using SQL Server Authentication type your username and password: <br/>
 conn_str = ( <br/>
