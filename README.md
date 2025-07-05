@@ -1,9 +1,9 @@
-# Simple Sales Data ETL Pipeline Project
+# Sample Sales Data ETL Pipeline
 
-## Overview
-A simple ETL pipeline that extracts data from an Excel file, transforms it using pandas, and loads it into a SQL Server Management Studio database.
+## Project Overview 
+A simple ETL pipeline that extracts data from an sample data Excel file, transforms it using pandas, and loads it into a SQL Server Management Studio database.
 
-## Features
+## Explanation
 -This script loads the excel file first. 
 -Start transforming by converting dates. 
 -Rows with important information (which cannot be null) are dropped. 
@@ -13,12 +13,12 @@ A simple ETL pipeline that extracts data from an Excel file, transforms it using
 -Create new database and insert new rows.
 -Commit to changes. 
 
-## Tech Stack
+## Tools
 -Python (Visual Studio)
 -Python extensions - Pandas for data analysis & Pyodbc for databases connections.
 -Microsoft SQL Server Management Studio
 
-## Run Instructions
+## Instructions
 1. Install Python 
 Make sure you install Python 3. x.
 Download: https://www.python.org/downloads/
@@ -32,7 +32,7 @@ Make sure you have the following packages:
 •	pyodbc
 •	openpyxl
 
-You can install all the needed extensions using commands:
+If not, you can install all the needed extensions using commands:
 *Open the python terminal and type these commands*
 a. pip install pandas 
 b. pip install pyodbc 
@@ -45,7 +45,7 @@ c. pip install openpyxl
 •	Remember your server’s name (yourlocalhost\\SQLEXPRESS) and credentials.
 
 5. Update Connection String in Script
-In etl_script.py, make sure your connection string (conn_str) is inputted correctly for a connection with your local database, example:
+In etl_script.py, make sure to edit your connection string (conn_str) for a connection with your local database, example:
 When using Windows Authentication:
 conn_str = (
     "Driver={ODBC Driver 17 for SQL Server};"
@@ -67,7 +67,7 @@ Ensure the excel file is inside the correct folder and the file path is correctl
 Example: ‘C:\Users\user\DataEngineering\Sales Data ETL Project\data\Sample-sales-data-excel.xlsx’
 
 7. Run the SQL Script
-Look for sales.sql script and open it in SSMS. Then run it. 
+Look for the sales.sql script file and open it on SSMS. Then run the script. 
 This script should allow you to create a new Sales1 database and a new Sales table where the ETL process. 
 
 8. Run the ETL Script
