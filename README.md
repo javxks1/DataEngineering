@@ -55,8 +55,8 @@ conn_str = ( <br/>
     "Server=localhost\\SQLEXPRESS;" <br/>
     "Database=master;" <br/>
     "Trusted_Connection=yes;" <br/>
-)
-If using SQL Server Authentication type your username and password: <br/>
+) <br/>
+<br>If using SQL Server Authentication type your username and password: <br/>
 conn_str = ( <br/>
     "Driver={ODBC Driver 17 for SQL Server};" <br/>
     "Server=localhost\\SQLEXPRESS;" <br/>
