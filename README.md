@@ -55,29 +55,28 @@ conn_str = (
     "Database=master;" 
     "Trusted_Connection=yes;" 
 )
-If using SQL Server Authentication type your username and password:
-conn_str = (
-    "Driver={ODBC Driver 17 for SQL Server};"
-    "Server=localhost\\SQLEXPRESS;"
-    "Database=master;"
-    "UID=your_username;"
-    "PWD=your_password;"
-)<br/>
+If using SQL Server Authentication type your username and password: <br/>
+conn_str = ( <br/>
+    "Driver={ODBC Driver 17 for SQL Server};" <br/>
+    "Server=localhost\\SQLEXPRESS;" <br/>
+    "Database=master;" <br/>
+    "UID=your_username;" <br/>
+    "PWD=your_password;" <br/>
+) <br/>
 
 6. Place Excel File in Data Folder
-Ensure the excel file is inside the correct folder and the file path is correctly set in the script:
+Ensure the excel file is inside the correct folder and the file path is correctly set in the script: <br/>
 Example: ‘C:\Users\user\DataEngineering\Sales Data ETL Project\data\Sample-sales-data-excel.xlsx’<br/>
 
 7. Run the SQL Script
-Look for the sales.sql script file and open it on SSMS. Then run the script. 
+Look for the sales.sql script file and open it on SSMS. Then run the script. <br/>
 This script should allow you to create a new Sales1 database and a new Sales table where the ETL process. <br/>
 
 8. Run the ETL Script
-Open a terminal and run the following command:
-python etl_script.py
+Open a terminal and run the following command: <br/>
+python etl_script.py <br/>
 
 or use any python environment software and run this script.<br/>
 
 9. Verify the Data in SQL Server
-Open SSMS, connect to your server and check that the new database and table have been created. Run SELECT * FROM Sales; to view inserted data.
-<br/>
+Open SSMS, connect to your server and check that the new database and table have been created. Run SELECT * FROM Sales; to view inserted data. <br/>
