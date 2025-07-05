@@ -1,8 +1,13 @@
+<br>
 # Sample Sales Data ETL Pipeline
+<br/>
+
 <br>
 ## Project Overview 
 A simple ETL pipeline that extracts data from an sample data Excel file, transforms it using pandas, and loads it into a SQL Server Management Studio database.
 <br/>
+
+<br>
 ## Explanation
 -This script loads the excel file first. 
 -Start transforming by converting dates. 
@@ -13,11 +18,15 @@ A simple ETL pipeline that extracts data from an sample data Excel file, transfo
 -Create new database and insert new rows.
 -Commit to changes. 
 <br/>
+
+<br>
 ## Tools
 -Python (Visual Studio)
 -Python extensions - _Pandas for data analysis & Pyodbc for databases connections._
 -Microsoft SQL Server Management Studio
 <br/>
+
+<br>
 ## Instructions
 1. Install Python 
 Make sure you install Python 3. x.
