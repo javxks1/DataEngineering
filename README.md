@@ -1,8 +1,8 @@
 
-# Sample Sales Data ETL Pipeline
+# Sales Data ETL Pipeline
 
 ## Project Overview 
-A simple ETL pipeline that extracts data from an sample data Excel file, transforms it using pandas, and loads it into a SQL Server Management Studio database.
+A sales data ETL pipeline that extracts data from an sample data Excel file, transforms it using pandas, and loads it into a SQL Server Management Studio database.
 
 
 ## Explanation
