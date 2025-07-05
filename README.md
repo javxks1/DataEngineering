@@ -1,23 +1,23 @@
 <br>
-# Sample Sales Data ETL Pipeline
+#Sample Sales Data ETL Pipeline
 <br/>
 
 <br>
-## Project Overview 
+##Project Overview 
 A simple ETL pipeline that extracts data from an sample data Excel file, transforms it using pandas, and loads it into a SQL Server Management Studio database.
 <br/>
 
 <br>
 ## Explanation
--This script loads the excel file first. 
--Start transforming by converting dates. 
--Rows with important information (which cannot be null) are dropped. 
--New total sales column creation by multiplying the Sales and Quantity columns.
--Convert NaNs into None for SQL compatibility. 
--Establish connection with Microsoft SQL Server database. 
--Create new database and insert new rows.
--Commit to changes. 
-<br/>
+<br>-This script loads the excel file first.<br/>
+<br>-Start transforming by converting dates.<br/>
+<br>-Rows with important information (which cannot be null) are dropped. <br/>
+<br>-New total sales column creation by multiplying the Sales and Quantity columns.<br/>
+<br>-Convert NaNs into None for SQL compatibility.<br/>
+<br>-Establish connection with Microsoft SQL Server database. <br/>
+<br>-Create new database and insert new rows.<br/>
+<br>-Commit to changes.<br/>
+
 
 <br>
 ## Tools
